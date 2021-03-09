@@ -1,0 +1,55 @@
+html, body {
+    margin: 20px auto;
+}
+
+body {
+   background-color: bisque; 
+   text-align: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column-reverse;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: center;
+}
+
+.button1, .button2 {
+    margin-right: 25px;
+    background-color: rgb(113, 107, 190);
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    box-shadow: 1px solid rgb(112, 111, 111);
+    border-radius: 8px;
+}
+
+.button2 {
+    width: 90px;
+}
+
+.button1:hover {
+    background-color: honeydew;
+    color: indigo;
+}
+
+.button2:hover {
+    background-color: lightcoral;
+    color: maroon;
+    font-weight: 600;
+}
+
+#skaityti {
+    display: none;
+    font-size: 20px;
+}

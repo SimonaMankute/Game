@@ -1,0 +1,28 @@
+Planas
+
+Trys žaidėjai meta kauliuką. Laimi daugiausia taškų išridenęs. Tu gali pasirinkti, kuriuo žaidėju būsi.
+Įvedi savo vardą ties to žaidėjo laukeliu. Jei išridena tiek pat taškų, dar kartą ridena, kol lieka vienas
+laimėtojas. Ridenimas vyksta paspaudus mygtuką. Kai laimi, parašomas sveikinimas laimėtojui. Kitiems dviems 
+parašoma: Sorry, you've lost! Klausimas: Ar nori žaisti dar kartą?
+
+Prieš žaidimą:
+
+Klausimas:
+Kuris žaidėjas būsi? Išsirink 1., 2. ar 3. 
+Kai žaidėjas išsirenka numerį, iškrenta pranešimas: Įvesk savo vardą.
+Kai vardas įvestas, kitų dviejų žaidėjų vardai tampa "Player1" ir "Player2".
+
+Žaidimo eiga:
+
+Kad pradėti žaidimą, paspausti "Start". 
+Po "Start" paspaudimo, ridenasi kauliukai - iš pradžių pas pirmą žaidėją, tada pas antrą, tada pas trečią.
+Po kiekvienu žaidėju parodomas išridentų taškų skaičius.
+Palyginami skaičiai.
+Parašomas sveikinimas laimėtojui, o po pralaimėjusiais: "Sorry, you've lost!"
+
+Po žaidimo:
+
+Klausimas:
+Ar nori žaisti dar kartą? "Taip" ir "Ne" mygtukai.
+Jei "Taip" - vėl paleidžiama nuo pat pradžių.
+Jei "Ne" - žaidimas nepaleidžiamas.
