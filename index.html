@@ -7,9 +7,12 @@
         <link rel="stylesheet" href="style.css">
     </head>
 <body>
-    <h1>Išbandyk savo sėkmę kauliukų ridenimo žaidime!</h1>
+    <div class="title_marq">
+    <h1 class="title">Išbandyk savo sėkmę kauliukų ridenimo žaidime!</h1>
+    <h1 class="title">Išbandyk savo sėkmę kauliukų ridenimo žaidime!</h1>
+</div>
     <div class="intro">
-        <p id="skaityti">Paskaityk instrukciją: <br><br>Trys žaidėjai meta kauliuką. Laimi daugiausia taškų išridenęs. Tu gali pasirinkti, kuriuo žaidėju būsi.
+        <p id="skaityti" style="display:none;">Paskaityk instrukciją: <br><br>Trys žaidėjai meta kauliuką. Laimi daugiausia taškų išridenęs. Tu gali pasirinkti, kuriuo žaidėju būsi.
             Įvedi savo vardą ties to žaidėjo laukeliu. Jei daugiau nei vienas išridena tiek pat taškų, dar kartą ridena, kol lieka vienas
             laimėtojas. Ridenimas vyksta paspaudus mygtuką. Kai laimima, parašomas sveikinimas laimėtojui. Jei nori, paskui gali žaisti dar kartą! <br><br> Kad žaidimas
             prasidėtų, spausk "Žaisti"!</p>
@@ -18,8 +21,32 @@
             <button type = "button" class="button2" onclick="zaisk()">Žaisti</button>
         </div>
     </div>
+
+    <div id="zaidimas" style="display:none;">
+        <div class="pasirinkZaideja">
+            <p>Pasirink, kuris žaidėjas būsi:</p>
+        </div>
+            <div class="zaidejai">
+            <div class="zaidejas1">
+                <img src="img/smiley.png"  width="90px" height="90px">
+                <figcaption>1.</figcaption>
+                <input type="radio" id="pirmas" name="pasirinkimas">
+            </div>
+            <div class="zaidejas2">
+                <img src="img/cricket.jpg" width="90px" height="90px">
+                <figcaption>2.</figcaption>
+                <input type="radio" id="antras" name="pasirinkimas">
+            </div>
+            <div class="zaidejas3">
+                <img src="img/standing.jpg" width="90px" height="90px">
+                <figcaption>3.</figcaption>
+                <input type="radio" id="trecias" name="pasirinkimas">
+            </div>
+        
+        </div>
+    </div>
     
-    
+    </div>
        <script src="game.js"></script>
 </body>
 </html>

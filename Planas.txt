@@ -1,3 +1,9 @@
+Klausimai:
+
+
+
+
+
 Planas
 
 Trys žaidėjai meta kauliuką. Laimi daugiausia taškų išridenęs. Tu gali pasirinkti, kuriuo žaidėju būsi.
@@ -7,8 +13,8 @@ parašoma: Sorry, you've lost! Klausimas: Ar nori žaisti dar kartą?
 
 Prieš žaidimą:
 
-Klausimas:
-Kuris žaidėjas būsi? Išsirink 1., 2. ar 3. 
+Paspaudus "Žaisti", rodo tris žaidėjus.
+Pasirodo Klausimas: Kuris žaidėjas būsi? Išsirink 1., 2. ar 3. 
 Kai žaidėjas išsirenka numerį, iškrenta pranešimas: Įvesk savo vardą.
 Kai vardas įvestas, kitų dviejų žaidėjų vardai tampa "Player1" ir "Player2".
 

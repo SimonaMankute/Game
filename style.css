@@ -5,6 +5,7 @@ html, body {
 body {
    background-color: bisque; 
    text-align: center;
+   animation: pulse 5s infinite;
 }
 
 .intro {
@@ -15,9 +16,47 @@ body {
 
 h1 {
     font-family: 'Lucida Sans', sans-serif;
+    text-shadow: 1px 1px darkslategray;
 }
 
-.buttons {
+
+.title_marq {
+  display: flex;
+}
+
+  .title {
+    flex-shrink: 0;
+    margin: 0;
+    padding: 10px 15px;
+    min-width: 100%;
+    white-space: nowrap;
+    animation-name: marqueeLine;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes marqueeLine {
+  from {
+    transform: translateX(0);
+  }
+  
+  to {
+    transform: translateX(-100%);
+  }
+}
+/*
+  @keyframes pulse {
+    0% {
+      background-color: #8bced3;
+    }
+    100% {
+      background-color: #d48884;
+    }
+  }
+  */
+
+ .buttons {
     display: flex;
     flex-direction: row;
     margin: 20px;
@@ -50,6 +89,30 @@ h1 {
 }
 
 #skaityti {
-    display: none;
     font-size: 20px;
 }
+
+.zaidejai {
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+figcaption {
+    margin-top: 25px;
+}
+
+.zaidejas1 img, .zaidejas2 img, .zaidejas3 img {
+    transition: transform .2s;
+}
+
+.zaidejas1 img:hover, .zaidejas2 img:hover, .zaidejas3 img:hover {
+    transform: scale(1.5);
+}
+
+#pirmas, #antras, #trecias {
+  margin: 20px;
+  height: 2em;
+  width: 2em;
+ }
+
