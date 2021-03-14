@@ -45,16 +45,16 @@ h1 {
     transform: translateX(-100%);
   }
 }
-/*
+
   @keyframes pulse {
     0% {
-      background-color: #8bced3;
+      background-color: #eea765;
     }
     100% {
       background-color: #d48884;
     }
   }
-  */
+  
 
  .buttons {
     display: flex;
