@@ -93,13 +93,9 @@ h1 {
 }
 
 .zaidejai {
-    margin: 40px auto;
+    margin: 60px auto;
     display: flex;
     justify-content: space-around;
-}
-
-figcaption {
-    margin-top: 25px;
 }
 
 .zaidejas1 img, .zaidejas2 img, .zaidejas3 img {
@@ -110,9 +106,23 @@ figcaption {
     transform: scale(1.5);
 }
 
-#pirmas, #antras, #trecias {
-  margin: 20px;
-  height: 2em;
-  width: 2em;
- }
+img {
+  display: block;
+  margin: auto;
+}
 
+.zaidejas1, .zaidejas2, .zaidejas3 {
+  display: flex;
+  flex-direction: column;
+}
+
+#vardoLaukas1, #vardoLaukas2, #vardoLaukas3 {
+  text-align: center;
+  margin-top: 45px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pasirinkZaideja p {
+  font-size: 40px;
+  color: rgb(11, 11, 134);
+}
