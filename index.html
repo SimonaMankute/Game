@@ -7,10 +7,10 @@
         <link rel="stylesheet" href="style.css">
     </head>
 <body>
-    <div class="title_marq">
-    <h1 class="title">Išbandyk savo sėkmę kauliukų ridenimo žaidime!</h1>
-    <h1 class="title">Išbandyk savo sėkmę kauliukų ridenimo žaidime!</h1>
-</div>
+    <div class="running_title">
+        <p>Išbandyk savo sėkmę kauliukų ridenimo žaidime! </p>
+        
+    </div>
     <div class="intro">
         <p id="skaityti" style="display:none;">Paskaityk instrukciją: <br><br>Trys žaidėjai meta kauliuką. Laimi daugiausia taškų išridenęs. Tu gali pasirinkti, kuriuo žaidėju būsi.
             Įvedi savo vardą ties to žaidėjo laukeliu. Jei daugiau nei vienas išridena tiek pat taškų, dar kartą ridena, kol lieka vienas
@@ -29,20 +29,22 @@
             <div class="zaidejai">
             <div class="zaidejas1">
                 <img src="img/smiley.png"  width="90px" height="90px" onclick="iveskVarda1()">
-                <input type="box" id="vardoLaukas1" name="vardai" placeholder="DJ Bum Bum"></input>
+                <input type="text" id="vardoLaukas1" name="vardai" placeholder="DJ Bum Bum" disabled minlength="4" maxlength="8" size="10"></input>
             </div>
             <div class="zaidejas2">
                 <img src="img/cricket.jpg" width="90px" height="90px" onclick="iveskVarda2()">
-                <input type="box" id="vardoLaukas2" name="vardai" placeholder="Chuck Norris"></input>
+                <input type="box" id="vardoLaukas2" maxlength="12" name="vardai" placeholder="Chuck Norris" disabled></input>
             </div>
             <div class="zaidejas3">
                 <img src="img/standing.jpg" width="90px" height="90px" onclick="iveskVarda3()">
-                <input type="box" id="vardoLaukas3" name="vardai" placeholder="President"></input>
+                <input type="box" id="vardoLaukas3" maxlength="12" name="vardai" placeholder="President" disabled></input>
             </div>
         
         </div>
     </div>
     
+    <div id="ridenimas" style="display: none;">
+        <button type=""
     </div>
        <script src="game.js"></script>
 </body>

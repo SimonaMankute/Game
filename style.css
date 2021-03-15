@@ -20,32 +20,32 @@ h1 {
 }
 
 
-.title_marq {
-  display: flex;
+.running_title {
+  width: 100%;
+  color: rgb(11, 11, 134);
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
-  .title {
-    flex-shrink: 0;
-    margin: 0;
-    padding: 10px 15px;
-    min-width: 100%;
-    white-space: nowrap;
-    animation-name: marqueeLine;
-    animation-duration: 8s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-  }
-
-@keyframes marqueeLine {
-  from {
-    transform: translateX(0);
-  }
-  
-  to {
-    transform: translateX(-100%);
-  }
+.running_title p:hover {
+  animation-play-state: paused;
 }
 
+.running_title p {
+  display: inline-block;
+  padding-left: 100%;
+  font-size: 35px;
+  font-family: 'Lucida Sans', Geneva, sans-serif;
+  animation: running_title 10s linear infinite;
+}
+@keyframes running_title {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+}
+
+
+/*
   @keyframes pulse {
     0% {
       background-color: #eea765;
@@ -54,7 +54,7 @@ h1 {
       background-color: #d48884;
     }
   }
-  
+  */
 
  .buttons {
     display: flex;
@@ -90,6 +90,11 @@ h1 {
 
 #skaityti {
     font-size: 20px;
+    border: 10px solid rgb(121, 140, 223);
+    background-color: rgb(178, 211, 224);
+    max-width: 600px;
+    margin: 30px auto;
+    font-family: 'Segoe UI', Geneva, sans-serif;
 }
 
 .zaidejai {

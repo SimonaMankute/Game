@@ -19,6 +19,8 @@ function zaisk() {
 
   function iveskVarda1() {
     var person = prompt("Įvesk savo vardą");
+    person = person.substr(0,12);
+    alert("Įveskite ne daugiau kaip 12 simbolių.");
     if (person == '') {
       alert("Tai ne vardas. Įveskite savo vardą.");
       return false;
@@ -30,6 +32,8 @@ function zaisk() {
 
 function iveskVarda2() {
   var person = prompt("Įvesk savo vardą");
+  person = person.substr(0,12);
+    alert("Įveskite ne daugiau kaip 12 simbolių.");
   if (person == '') {
     alert("Tai ne vardas. Įveskite savo vardą.");
     return false;
@@ -41,6 +45,8 @@ function iveskVarda2() {
 
 function iveskVarda3() {
   var person = prompt("Įvesk savo vardą");
+  person = person.substr(0,12);
+    alert("Įveskite ne daugiau kaip 12 simbolių.");
   if (person == '') {
     alert("Tai ne vardas. Įveskite savo vardą.");
     return false;
@@ -57,4 +63,5 @@ window.onload = function() {
   document.getElementById("vardoLaukas2").value="";
   document.getElementById("vardoLaukas3").value="";
 } 
+
 
