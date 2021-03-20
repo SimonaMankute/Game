@@ -26,25 +26,56 @@
         <div class="pasirinkZaideja">
             <p>Pasirink paveikslėlį, kuris žaidėjas būsi:</p>
         </div>
-            <div class="zaidejai">
+        <div class="zaidejai">
             <div class="zaidejas1">
                 <img src="img/smiley.png"  width="90px" height="90px" onclick="iveskVarda1()">
-                <input type="text" id="vardoLaukas1" name="vardai" placeholder="DJ Bum Bum" disabled minlength="4" maxlength="8" size="10"></input>
+                <input type="text" id="vardoLaukas1" class="ivestas" name="vardai" placeholder="DJ Bum Bum" disabled minlength="4" maxlength="8" size="10"></input>
             </div>
             <div class="zaidejas2">
                 <img src="img/cricket.jpg" width="90px" height="90px" onclick="iveskVarda2()">
-                <input type="box" id="vardoLaukas2" maxlength="12" name="vardai" placeholder="Chuck Norris" disabled></input>
+                <input type="box" id="vardoLaukas2" class="ivestas" maxlength="12" name="vardai" placeholder="Chuck Norris" disabled></input>
             </div>
             <div class="zaidejas3">
                 <img src="img/standing.jpg" width="90px" height="90px" onclick="iveskVarda3()">
-                <input type="box" id="vardoLaukas3" maxlength="12" name="vardai" placeholder="President" disabled></input>
+                <input type="box" id="vardoLaukas3" class="ivestas" maxlength="12" name="vardai" placeholder="President" disabled></input>
             </div>
-        
+        </div>
+        <div>
+            <input type="submit" name="submit" id="submit" onclick="mygtukai()" style="display:none"></input>
         </div>
     </div>
     
-    <div id="ridenimas" style="display: none;">
-        <button type=""
+    <div id="ridenimas">
+        <button type="button" class="button3" id="playButton1" onclick="ridenk_paveiksliukas()" style="display:none">Ridenk kauliuką!</button>
+        <button type="button" class="button4"  id="playButton2" onclick="stabdyk_kauliuka()" style="display:none">Stabdyk kauliuką!</button>
+        <img id="statinis" src="img/dice.png" height="40px" width="40px" style="display:none">
+        <img id="judantis" src="img/rolling_dice.gif" style="display: none;">
+        <p id="isridentas"></p>
+    </div>
+
+    <div class="dice">
+        <img class="dice1" src="img/dice1.jpg" style="display: none;">
+        <img class="dice2" src="img/dice2.jpg" style="display: none;">
+        <img class="dice3" src="img/dice3.jpg" style="display: none;">
+        <img class="dice4" src="img/dice4.jpg" style="display: none;">
+        <img class="dice5" src="img/dice5.jpg" style="display: none;">
+        <img class="dice6" src="img/dice6.jpg" style="display: none;">
+    </div>
+    <div class="dice">
+        <img class="dice1" src="img/dice1.jpg" style="display: none;">
+        <img class="dice2" src="img/dice2.jpg" style="display: none;">
+        <img class="dice3" src="img/dice3.jpg" style="display: none;">
+        <img class="dice4" src="img/dice4.jpg" style="display: none;">
+        <img class="dice5" src="img/dice5.jpg" style="display: none;">
+        <img class="dice6" src="img/dice6.jpg" style="display: none;">
+    </div>
+    <div class="dice">
+        <img class="dice1" src="img/dice1.jpg" style="display: none;">
+        <img class="dice2" src="img/dice2.jpg" style="display: none;">
+        <img class="dice3" src="img/dice3.jpg" style="display: none;">
+        <img class="dice4" src="img/dice4.jpg" style="display: none;">
+        <img class="dice5" src="img/dice5.jpg" style="display: none;">
+        <img class="dice6" src="img/dice6.jpg" style="display: none;">
     </div>
        <script src="game.js"></script>
 </body>
