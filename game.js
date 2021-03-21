@@ -150,25 +150,25 @@ function stabdyk_kauliuka() {
   
 
   if(isridentas1 == isridentas2 & isridentas1 == isridentas3 & isridentas2 == isridentas3) {
-    alert("Lygiosios! Galite ridenkti kauliukus dar kartą!");
+    alert("Lygiosios! Galite ridenti kauliukus dar kartą!");
   }
   else if (isridentas1 > isridentas2 & isridentas1 > isridentas3) {
-    alert(`Sveikinimai! Laimėjo ${content1}! Galite ridenkti kauliukus dar kartą!`);
+    alert(`Sveikinimai! Laimėjo ${content1}! Galite ridenti kauliukus dar kartą!`);
   }
   else if (isridentas2 > isridentas1 & isridentas2 > isridentas3) {
-    alert(`Sveikinimai! Laimėjo ${content2}! Galite ridenkti kauliukus dar kartą!`);
+    alert(`Sveikinimai! Laimėjo ${content2}! Galite ridenti kauliukus dar kartą!`);
   }
   else if (isridentas1 > isridentas2 & isridentas1 > isridentas3 & isridentas2 == isridentas3) {
-    alert(`Sveikinimai! Laimėjo ${content1}! Galite ridenkti kauliukus dar kartą`);
+    alert(`Sveikinimai! Laimėjo ${content1}! Galite ridenti kauliukus dar kartą`);
   }
   else if (isridentas2 > isridentas1 & isridentas2 > isridentas3 & isridentas1 == isridentas3) {
-    alert(`Sveikinimai! Laimėjo ${content2}! Galite ridenkti kauliukus dar kartą!`);
+    alert(`Sveikinimai! Laimėjo ${content2}! Galite ridenti kauliukus dar kartą!`);
   }
   else if (isridentas3 > isridentas1 & isridentas3 > isridentas2 & isridentas1 == isridentas2) {
-    alert(`Sveikinimai! Laimėjo ${content3}! Galite ridenkti kauliukus dar kartą!`);
+    alert(`Sveikinimai! Laimėjo ${content3}! Galite ridenti kauliukus dar kartą!`);
   }
   else if (isridentas1 == isridentas2 || isridentas1 == isridentas3 || isridentas2 == isridentas3) {
     alert(`Niekas nelaimėjo. Ridenkti kauliukus dar kartą!`);
   }
-  else alert(`Sveikinimai! Laimėjo ${content3}! Galite ridenkti kauliukus dar kartą!`);
+  else alert(`Sveikinimai! Laimėjo ${content3}! Galite ridenti kauliukus dar kartą!`);
 }
