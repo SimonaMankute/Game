@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-   background-color: bisque; 
+   background-color: rgb(231, 218, 203); 
    text-align: center;
    animation: pulse 5s infinite;
 }
@@ -64,7 +64,7 @@ h1 {
     justify-content: center;
 }
 
-.button1, .button2 {
+.button1, .button2, #submit {
     margin-right: 25px;
     background-color: rgb(113, 107, 190);
     color: white;
@@ -78,15 +78,12 @@ h1 {
     width: 90px;
 }
 
-.button1:hover {
-    background-color: honeydew;
-    color: indigo;
-}
 
-.button2:hover {
+.button2:hover, .button1:hover, #submit:hover {
     background-color: lightcoral;
     color: maroon;
     font-weight: 600;
+    cursor: pointer;
 }
 
 #skaityti {
@@ -138,4 +135,32 @@ img {
   background-color: blue;
   }
 
+ .kauliukuMygtukai {
+  margin: 50px auto;
+}
 
+#playButton1, #playButton2 {
+  margin-right: 25px;
+  background-color: rgb(190, 107, 176);
+  color: white;
+  font-size: 20px;
+  height: 50px;
+  box-shadow: 1px solid rgb(112, 111, 111);
+  border-radius: 8px;
+  margin: 50px;
+}
+
+#playButton1:hover, #playButton2:hover {
+  background-color: rgb(100, 194, 237);
+  cursor: pointer;
+  color: black;
+  font-weight: 700;
+}
+
+#statinis1, #statinis2, #statinis3 {
+  margin-top: 50px; 
+}
+
+#statinis1:hover, #statinis2:hover, #statinis3:hover {
+  cursor: none; 
+}
